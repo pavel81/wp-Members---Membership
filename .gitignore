@@ -6,9 +6,6 @@
 /var/
 *.log
 
-# test / dev
-
-
 # env
 .env
 .env.*
@@ -22,10 +19,7 @@ Thumbs.db
 # misc
 *.zip
 *.sql
-*.txt
 .phpunit.result.cache
 
-
-.DS_Store
-Thumbs.db
-.git
+# keep WordPress readme if needed
+!readme.txt
